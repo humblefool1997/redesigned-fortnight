@@ -1,19 +1,19 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
-import { ForgotPasswordPage } from './forgot-password.page';
+import { QrscannerdataPage } from './qrscannerdata.page';
 
-describe('ForgotPasswordPage', () => {
-  let component: ForgotPasswordPage;
-  let fixture: ComponentFixture<ForgotPasswordPage>;
+describe('QrscannerdataPage', () => {
+  let component: QrscannerdataPage;
+  let fixture: ComponentFixture<QrscannerdataPage>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ForgotPasswordPage ],
+      declarations: [ QrscannerdataPage ],
       imports: [IonicModule.forRoot()]
     }).compileComponents();
 
-    fixture = TestBed.createComponent(ForgotPasswordPage);
+    fixture = TestBed.createComponent(QrscannerdataPage);
     component = fixture.componentInstance;
     fixture.detectChanges();
   }));

@@ -20,9 +20,14 @@ const routes: Routes = [
     loadChildren: () => import('./registration/registration.module').then( m => m.RegistrationPageModule)
   },
   {
-    path: 'forgot-password',
-    loadChildren: () => import('./forgot-password/forgot-password.module').then( m => m.ForgotPasswordPageModule)
+    path: 'qrscannerdata',
+    loadChildren: () => import('./qrscannerdata/qrscannerdata.module').then( m => m.QrscannerdataPageModule)
   },
+  {
+    path: 'dashboard',
+    loadChildren: () => import('./dashboard/dashboard.module').then( m => m.DashboardPageModule)
+  },
+  
 ];
 
 @NgModule({
